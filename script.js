@@ -38,10 +38,10 @@ form.addEventListener("submit", function (event) {
   resultElement.appendChild(table);
 });
 
-function contarRepeticoes() {
+function contarRepeticoes(numbers) {
   const numerosAleatorios = [];
 
-  while (numerosAleatorios.length < 6) {
+  while (numerosAleatorios.length < numbers) {
     const numeroAleatorio = Math.floor(Math.random() * 60) + 1;
 
     if (!numerosAleatorios.includes(numeroAleatorio)) {
