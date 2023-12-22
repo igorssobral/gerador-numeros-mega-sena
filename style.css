@@ -25,7 +25,7 @@ h1 {
 }
 
 .container {
-    width: 500px;
+    width: 600px;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -39,6 +39,7 @@ h1 {
 form input {
     width: 200px;
     height: 30px;
+    font-size: 1rem;
     border-radius: 5px;
     border-color: rgba(2, 2, 2, 0.089);
     outline-color: var(--secondaty--color);
@@ -73,7 +74,7 @@ button:hover {
 
 .result {
     width: 99%;
-    height: 300px;
+    max-height: 300px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -82,12 +83,11 @@ button:hover {
 }
 
 table {
-    width: 95%;
+    width: 99%;
     border-collapse: collapse;
     margin-top: 10px;
-    font-size: 1.5rem;
     border: 2px solid var(--primary--color);
-    border-collapse: collapse;
+    
 
 
 
@@ -96,8 +96,9 @@ table {
 td {
     text-align: start;
     background-color: #f1f1f1;
-    font-size: 0.8rem;
-    padding: 5px;
+    font-size: .9rem;
+    border: 1px solid var(--primary--color);
+    padding: 10px;
     
 }
 
@@ -105,9 +106,9 @@ th {
     content: "aasas";
     color: #fff;
     background-color: var(--primary--color);
-    padding: 10px;
+    padding: 5px;
     position: sticky;
-   top: 0;
+    top: 0;
     z-index: 2;
 
 }
