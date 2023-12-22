@@ -17,11 +17,21 @@ body {
 }
 
 h1 {
-    margin: 50px 0px 100px 0px;
+    margin: 50px 0px 50px 0px;
     text-align: center;
     color: var(--primary--color);
     font-size: 1.9rem;
 
+}
+
+li{
+    width: fit-content;
+    margin: 0 10% 9% ;
+    text-align: center;
+    padding: 8px ;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4a9dac;
 }
 
 .container {

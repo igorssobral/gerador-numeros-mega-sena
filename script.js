@@ -26,7 +26,6 @@ form.addEventListener("submit", function (event) {
   title.innerHTML = "Seus Numeros";
   tblbody.appendChild(title);
 
-
   for (let index = 0; index < sequencias; index++) {
     const value = contarRepeticoes(numbers);
     const tr = document.createElement("tr");
@@ -39,7 +38,7 @@ form.addEventListener("submit", function (event) {
   resultElement.appendChild(table);
 });
 
-function contarRepeticoes(numeros) {
+function contarRepeticoes() {
   const numerosAleatorios = [];
 
   while (numerosAleatorios.length < 6) {
