@@ -33,7 +33,7 @@ h1 {
     border-radius: 15px;
     margin-top: 60px;
     padding: 5px;
-    overflow-y: scroll;
+
 }
 
 form input {
@@ -72,21 +72,23 @@ button:hover {
 }
 
 .result {
-    max-height: 300px;
-    overflow-y: auto;
+    width: 99%;
+    height: 300px;
     display: flex;
     justify-content: center;
-    margin: 0;
     margin-top: 20px;
+    overflow-y: auto;
 
 }
 
 table {
-    position: relative;
-    width: 90%;
-    text-align: center;
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 10px;
     font-size: 1.5rem;
-    border: 1px solid var(--primary--color);
+    border: 2px solid var(--primary--color);
+    border-collapse: collapse;
+
 
 
 }
@@ -94,13 +96,18 @@ table {
 td {
     text-align: start;
     background-color: #f1f1f1;
-
-
+    font-size: 0.8rem;
+    padding: 5px;
+    
 }
 
 th {
+    content: "aasas";
     color: #fff;
     background-color: var(--primary--color);
-
+    padding: 10px;
+    position: sticky;
+   top: 0;
+    z-index: 2;
 
 }
